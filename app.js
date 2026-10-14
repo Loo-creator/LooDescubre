@@ -134,6 +134,41 @@ const PRODUCTS = [
     color: "purple",
     image: "img/spider.png",
     url: "https://meli.la/2tTUWPW"
+  },
+  {
+    id: "maquina-coser-wanse",
+    name: "Máquina de Coser Eléctrica Portátil Mini Doméstica Multifuncional 12 Agujas Kit Costura Pedal Luz LED Mesa Wanse",
+    category: "Hogar",
+    price: 498.87,
+    originalPrice: 1007.35,
+    discount: 50,
+    installment: { months: 24, amount: 30.15 },
+    rating: 4.7,
+    reviews: 2826,
+    rank: "2º en Máquinas de Coser",
+    badge: "Más vendido",
+    emoji: "🧵",
+    color: "purple",
+    image: null,
+    url: "https://meli.la/14THFZ8"
+  },
+  {
+    id: "desbrozadora-ironhoof",
+    name: "Desbrozadora Inalámbrica Ironhoof XSMXF002BK Cortadora de Césped",
+    category: "Jardín",
+    price: 749,
+    originalPrice: 1499,
+    discount: 50,
+    installment: { months: 24, amount: 45.26 },
+    rating: 4.6,
+    reviews: 667,
+    rank: "1º en Eléctricas",
+    badge: "Popular",
+    flash: true,
+    emoji: "🌿",
+    color: "green",
+    image: null,
+    url: "https://meli.la/1r6Mcg5"
   }
 ];
 
@@ -200,6 +235,7 @@ function card(product) {
   const meta = [];
   if (product.rank) meta.push(`<span class="card-rank">${product.rank}</span>`);
   if (product.sold) meta.push(`<span class="card-sold">${product.sold}</span>`);
+  if (product.flash) meta.push(`<span class="card-flash">⚡ Oferta relámpago</span>`);
 
   const searchCode = product.searchCode
     ? `<p class="card-search">🔍 Busca en Mercado Libre: <code>${product.searchCode}</code></p>`
@@ -225,33 +261,108 @@ function card(product) {
   `;
 }
 
+const PAGE_SIZE = 6;
+
+const state = { category: "Todos", page: 1 };
+
+function getFiltered() {
+  return state.category === "Todos"
+    ? PRODUCTS
+    : PRODUCTS.filter((p) => p.category === state.category);
+}
+
+function totalPages(count) {
+  return Math.max(1, Math.ceil(count / PAGE_SIZE));
+}
+
 function renderFilters() {
   const categories = ["Todos", ...new Set(PRODUCTS.map((p) => p.category))];
   const el = document.getElementById("filters");
   el.innerHTML = categories
     .map(
-      (c, i) =>
-        `<button class="chip${i === 0 ? " active" : ""}" data-filter="${c}">${c}</button>`
+      (c) =>
+        `<button class="chip${c === state.category ? " active" : ""}" data-filter="${c}">${c}</button>`
     )
     .join("");
 
   el.addEventListener("click", (e) => {
     const btn = e.target.closest(".chip");
-    if (!btn) return;
-    el.querySelectorAll(".chip").forEach((c) => c.classList.remove("active"));
-    btn.classList.add("active");
-    const filter = btn.dataset.filter;
-    document.querySelectorAll(".card").forEach((cardEl) => {
-      const show = filter === "Todos" || cardEl.dataset.category === filter;
-      cardEl.classList.toggle("hidden", !show);
-    });
+    if (!btn || btn.dataset.filter === state.category) return;
+    state.category = btn.dataset.filter;
+    state.page = 1;
+    el.querySelectorAll(".chip").forEach((c) => c.classList.toggle("active", c === btn));
+    render();
+  });
+}
+
+function pageNumbers(current, total) {
+  const pages = [];
+  const push = (v) => {
+    if (!pages.includes(v)) pages.push(v);
+  };
+  push(1);
+  for (let i = current - 1; i <= current + 1; i++) {
+    if (i > 1 && i < total) push(i);
+  }
+  if (total > 1) push(total);
+
+  const out = [];
+  let prev = 0;
+  for (const p of pages.sort((a, b) => a - b)) {
+    if (p - prev > 1) out.push(`<span class="page-gap">…</span>`);
+    out.push(
+      `<button class="page-btn${p === current ? " active" : ""}" data-page="${p}" ${p === current ? 'aria-current="page"' : ""}>${p}</button>`
+    );
+    prev = p;
+  }
+  return out.join("");
+}
+
+function renderPagination(count) {
+  const el = document.getElementById("pagination");
+  const pages = totalPages(count);
+  if (pages <= 1) {
+    el.innerHTML = "";
+    el.hidden = true;
+    return;
+  }
+  el.hidden = false;
+
+  const from = (state.page - 1) * PAGE_SIZE + 1;
+  const to = Math.min(state.page * PAGE_SIZE, count);
+
+  el.innerHTML = `
+    <p class="page-info">Mostrando <strong>${from}–${to}</strong> de <strong>${count}</strong> hallazgos</p>
+    <nav class="pager" aria-label="Paginación">
+      <button class="page-btn page-nav" data-page="${state.page - 1}" ${state.page === 1 ? "disabled" : ""} aria-label="Anterior">‹ Anterior</button>
+      ${pageNumbers(state.page, pages)}
+      <button class="page-btn page-nav" data-page="${state.page + 1}" ${state.page === pages ? "disabled" : ""} aria-label="Siguiente">Siguiente ›</button>
+    </nav>
+  `;
+
+  el.querySelector(".pager").addEventListener("click", (e) => {
+    const btn = e.target.closest("[data-page]");
+    if (!btn || btn.disabled) return;
+    const p = Number(btn.dataset.page);
+    if (p < 1 || p > pages || p === state.page) return;
+    state.page = p;
+    render();
+    document.getElementById("productos").scrollIntoView({ behavior: "smooth", block: "start" });
   });
 }
 
 function render() {
-  document.getElementById("grid").innerHTML = PRODUCTS.map(card).join("");
+  const filtered = getFiltered();
+  const pages = totalPages(filtered.length);
+  if (state.page > pages) state.page = pages;
+
+  const start = (state.page - 1) * PAGE_SIZE;
+  const visible = filtered.slice(start, start + PAGE_SIZE);
+
+  document.getElementById("grid").innerHTML = visible.map(card).join("");
+  renderPagination(filtered.length);
   document.getElementById("year").textContent = new Date().getFullYear();
-  renderFilters();
 }
 
+renderFilters();
 render();
