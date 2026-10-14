@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Loo Descubre — Los mejores hallazgos de Mercado Libre</title>
+  <meta name="description" content="Loo Descubre: curaduría diaria de productos increíbles de Mercado Libre. Encuentra gadgets, hogar y más con los mejores precios." />
+  <meta property="og:title" content="Loo Descubre — Los mejores hallazgos" />
+  <meta property="og:description" content="Curaduría diaria de productos increíbles de Mercado Libre." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" type="image/png" href="brand/icon.png" />
+  <link rel="apple-touch-icon" href="brand/icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top">
+        <img class="brand-logo" src="brand/icon.png" alt="Loo Descubre" />
+        <span class="brand-text">
+          <strong>Loo Descubre</strong>
+          <small>Hallazgos que valen la pena</small>
+        </span>
+      </a>
+      <nav class="nav">
+        <a href="#productos">Productos</a>
+        <a href="#categorias">Categorías</a>
+        <a href="#nosotros">Nosotros</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <span class="pill">Nueva campaña · Mercado Libre</span>
+          <h1>Descubre productos que <em>no sabías que necesitabas</em></h1>
+          <p>
+            En <strong>Loo Descubre</strong> seleccionamos a mano gadgets, artículos de hogar
+            y ofertas de Mercado Libre para que compres mejor, más rápido y sin perder tiempo.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#productos">Ver hallazgos</a>
+            <a class="btn btn-ghost" href="#categorias">Explorar categorías</a>
+          </div>
+          <ul class="hero-stats">
+            <li><strong>+15.000</strong><span>opiniones reales</span></li>
+            <li><strong>4.7★</strong><span>valoración media</span></li>
+            <li><strong>24/7</strong><span>ofertas activas</span></li>
+          </ul>
+        </div>
+        <div class="hero-art">
+          <div class="orb orb-1"></div>
+          <div class="orb orb-2"></div>
+          <div class="hero-card">
+            <img class="hero-logo" src="brand/isiologo.png" alt="Loo Descubre" />
+            <span class="hero-card-sub">Hallazgos que valen la pena</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="categorias" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Categorías</h2>
+          <p>Filtra los hallazgos según lo que estás buscando.</p>
+        </div>
+        <div class="filters" id="filters"></div>
+      </div>
+    </section>
+
+    <section id="productos" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Hallazgos destacados</h2>
+          <p>Selección de esta semana en Mercado Libre.</p>
+        </div>
+        <div class="grid" id="grid"></div>
+      </div>
+    </section>
+
+    <section id="nosotros" class="section about">
+      <div class="container about-inner">
+        <h2>¿Por qué Loo Descubre?</h2>
+        <div class="about-grid">
+          <article>
+            <span class="about-ico">🔎</span>
+            <h3>Curaduría real</h3>
+            <p>Probamos y revisamos reseñas antes de recomendar cualquier producto.</p>
+          </article>
+          <article>
+            <span class="about-ico">💸</span>
+            <h3>Mejores precios</h3>
+            <p>Seguimos las ofertas de Mercado Libre para que no pagues de más.</p>
+          </article>
+          <article>
+            <span class="about-ico">🚚</span>
+            <h3>Compra segura</h3>
+            <p>Los enlaces te llevan directo a Mercado Libre, con su protección al comprador.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img class="footer-isotipo" src="brand/isotipo.png" alt="Loo Descubre" />
+      </div>
+      <p class="disclosure">
+        Como afiliados de Mercado Libre podemos recibir una comisión por las compras realizadas
+        a través de nuestros enlaces, sin costo adicional para ti.
+      </p>
+      <p class="copy">© <span id="year"></span> Loo Descubre. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
