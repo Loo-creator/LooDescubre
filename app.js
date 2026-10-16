@@ -169,6 +169,65 @@ const PRODUCTS = [
     color: "green",
     image: null,
     url: "https://meli.la/1r6Mcg5"
+  },
+  {
+    id: "terminal-point-smart-2",
+    name: "Terminal Point Smart 2 con Internet Gratis, Pago con Tarjetas",
+    category: "Tecnología",
+    price: 549,
+    originalPrice: 1879.79,
+    discount: 70,
+    installment: { months: 3, amount: 183 },
+    rating: 4.8,
+    reviews: 63994,
+    rank: "1º en Terminales POS",
+    badge: "Más vendido",
+    specs: ["Voltaje: 3V", "Acepta pagos con débito", "Con contactless", "Impresión de comprobantes"],
+    emoji: "💳",
+    color: "blue",
+    image: null,
+    url: "https://meli.la/32VXwxQ"
+  },
+  {
+    id: "playera-compresion",
+    name: "Playera Licra Deportiva Correr Compresión Manga Larga",
+    category: "Ropa",
+    price: 88.8,
+    originalPrice: 148,
+    discount: 40,
+    rating: 4.8,
+    reviews: 20681,
+    rank: "2º en Playeras",
+    badge: "Más vendido",
+    emoji: "👕",
+    color: "purple",
+    image: null,
+    url: "https://meli.la/1opEwMd"
+  },
+  {
+    id: "scooter-e9-pro",
+    name: "Scooter Eléctrico E9 Pro 32 Km/h 500W Patín Honey Whale",
+    category: "Movilidad",
+    price: 4999,
+    originalPrice: 9599,
+    discount: 47,
+    installment: { months: 15, amount: 333.27 },
+    rating: 4.8,
+    reviews: 6490,
+    rank: "2º en Eléctricos",
+    badge: "Más vendido",
+    specs: [
+      "Tiempo de carga: 6 h",
+      "Potencia del motor: 650W",
+      "Velocidad máx.: 32 km/h",
+      "Soporta hasta 120 kg",
+      "Autonomía: 25 km"
+    ],
+    colors: ["Negro", "Azul", "Blanco", "Rojo", "Rosa"],
+    emoji: "🛴",
+    color: "green",
+    image: null,
+    url: "https://meli.la/2Tqzykk"
   }
 ];
 
@@ -241,6 +300,16 @@ function card(product) {
     ? `<p class="card-search">🔍 Busca en Mercado Libre: <code>${product.searchCode}</code></p>`
     : "";
 
+  const specs = product.specs?.length
+    ? `<ul class="card-specs">${product.specs.map((s) => `<li>${s}</li>`).join("")}</ul>`
+    : "";
+
+  const colors = product.colors?.length
+    ? `<div class="card-colors"><span>Color:</span>${product.colors
+        .map((c) => `<span class="swatch swatch-${c.toLowerCase()}" title="${c}"></span>`)
+        .join("")}</div>`
+    : "";
+
   return `
     <article class="card" data-category="${product.category}">
       ${media(product)}
@@ -252,9 +321,14 @@ function card(product) {
         <h3 class="card-title">${product.name}</h3>
         ${rating}
         ${searchCode}
+        ${colors}
+        ${specs}
         ${priceBlock(product)}
         <div class="card-footer">
-          <a class="card-cta" href="${product.url}" target="_blank" rel="noopener sponsored">Ir a Mercado Libre →</a>
+          <a class="card-cta" href="${product.url}" target="_blank" rel="noopener sponsored">
+            <span>Ver oferta en Mercado Libre</span>
+            <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
         </div>
       </div>
     </article>
@@ -264,6 +338,14 @@ function card(product) {
 const PAGE_SIZE = 6;
 
 const state = { category: "Todos", page: 1 };
+
+function shuffle(arr) {
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
 
 function getFiltered() {
   return state.category === "Todos"
@@ -364,5 +446,6 @@ function render() {
   document.getElementById("year").textContent = new Date().getFullYear();
 }
 
+shuffle(PRODUCTS);
 renderFilters();
 render();
