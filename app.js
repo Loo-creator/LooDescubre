@@ -149,7 +149,7 @@ const PRODUCTS = [
     badge: "Más vendido",
     emoji: "🧵",
     color: "purple",
-    image: null,
+    image: "img/coser.png",
     url: "https://meli.la/14THFZ8"
   },
   {
@@ -167,7 +167,7 @@ const PRODUCTS = [
     flash: true,
     emoji: "🌿",
     color: "green",
-    image: null,
+    image: "img/debrozadora.png",
     url: "https://meli.la/1r6Mcg5"
   },
   {
@@ -185,7 +185,7 @@ const PRODUCTS = [
     specs: ["Voltaje: 3V", "Acepta pagos con débito", "Con contactless", "Impresión de comprobantes"],
     emoji: "💳",
     color: "blue",
-    image: null,
+    image: "img/terminal.png",
     url: "https://meli.la/32VXwxQ"
   },
   {
@@ -201,7 +201,7 @@ const PRODUCTS = [
     badge: "Más vendido",
     emoji: "👕",
     color: "purple",
-    image: null,
+    image: "img/playera.png",
     url: "https://meli.la/1opEwMd"
   },
   {
@@ -226,7 +226,7 @@ const PRODUCTS = [
     colors: ["Negro", "Azul", "Blanco", "Rojo", "Rosa"],
     emoji: "🛴",
     color: "green",
-    image: null,
+    image: "img/scooter.png",
     url: "https://meli.la/2Tqzykk"
   }
 ];
