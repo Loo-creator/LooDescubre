@@ -307,6 +307,229 @@ const PRODUCTS = [
     image: "img/kit_rotomartillo.png",
     searchCode: "DB7X6K-8BR6",
     url: "https://meli.la/2TiNpMV"
+  },
+  {
+    "id": "auriculares-jbl-pure-bass-bluetooth-tune-520bt-color-morado",
+    "name": "Auriculares Jbl Pure Bass Bluetooth Tune 520bt, color morado",
+    "category": "TV y Audio",
+    "price": 480.52,
+    "originalPrice": 799.0,
+    "discount": 39,
+    "description": "Incluye micrófono.",
+    "specs": [
+      "Modelo: Tune 520BT",
+      "Color: Morado"
+    ],
+    "badge": "Nuevo",
+    "emoji": "📺",
+    "color": "blue",
+    "image": "img/auriculares-jbl-pure-bass-bluetooth-tune-520bt-color-morado.jpg",
+    "url": "https://meli.la/2H9J2v2",
+    "postTexto": "🚨 **OFERTA DESTACADA DE HOY** 🚨\n\n📦 **Auriculares Jbl Pure Bass Bluetooth Tune 520bt, color morado**\n\n🔥 **¡39% DE DESCUENTO!**\n❌ Antes: ~$799.00~\n✅ **A solo: $480.52**\n\n⭐ Envío rápido y compra 100% protegida.\n\n👇 **Consigue el enlace de compra directo en el PRIMER COMENTARIO.** 👇\n\n#Ofertas #Gadgets #ComprasOnline #Descuentos #MercadoLibre",
+    "primerComentario": "🛒 **Compra directo aquí con descuento:**\n👉 https://meli.la/2H9J2v2\n\n⚠️ *Promoción por tiempo limitado o hasta agotar existencias.*"
+  },
+  {
+    "id": "apple-iphone-16-128-gb-negro",
+    "name": "Apple iPhone 16 (128 GB) - Negro",
+    "category": "Tecnología",
+    "price": 14645.55,
+    "description": "Diseñado para Apple Intelligence. Control de la cámara. Capturas más amplias y detalladas.",
+    "specs": [
+      "Modelo: iPhone 16",
+      "Memoria interna: 128 GB",
+      "Memoria RAM: 8 GB",
+      "Tamaño de la pantalla: 6.1 \"",
+      "Resolución de la pantalla: 2556 px x 1179 px",
+      "Color: Negro"
+    ],
+    "badge": "Nuevo",
+    "emoji": "🛒",
+    "color": "blue",
+    "image": "img/apple-iphone-16-128-gb-negro.jpg",
+    "url": "https://meli.la/1xFobD3",
+    "postTexto": "🚨 **OFERTA DESTACADA DE HOY** 🚨\n\n📦 **Apple iPhone 16 (128 GB) - Negro**\n\n⚡ **Precio especial: $14,645.55**\n\n⭐ Envío rápido y compra 100% protegida.\n\n👇 **Consigue el enlace de compra directo en el PRIMER COMENTARIO.** 👇\n\n#Ofertas #Gadgets #ComprasOnline #Descuentos #MercadoLibre",
+    "primerComentario": "🛒 **Compra directo aquí con descuento:**\n👉 https://meli.la/1xFobD3\n\n⚠️ *Promoción por tiempo limitado o hasta agotar existencias.*"
+  },
+  {
+    "id": "celular-samsung-galaxy-s23-ultra-5g-dual-sim-8gb-256gb-color",
+    "name": "Celular Samsung Galaxy S23 Ultra 5G Dual SIM 8gb + 256gb Color Verde",
+    "category": "Tecnología",
+    "price": 12318.0,
+    "originalPrice": 21699.0,
+    "discount": 43,
+    "description": "Dispositivo desbloqueado para que elijas la compañía telefónica que prefieras. Compatible con redes 5G. Pantalla AMOLED de 6.78\".",
+    "specs": [
+      "Modelo: S23 Ultra",
+      "Memoria interna: 256 GB",
+      "Memoria RAM: 8 GB",
+      "Tamaño de la pantalla: 6.78 \"",
+      "Resolución de la pantalla: 1440 px x 3088 px",
+      "Color: Verde"
+    ],
+    "badge": "Nuevo",
+    "emoji": "🛒",
+    "color": "blue",
+    "image": "img/celular-samsung-galaxy-s23-ultra-5g-dual-sim-8gb-256gb-color.jpg",
+    "url": "https://meli.la/2jzLXY4",
+    "postTexto": "🚨 **OFERTA DESTACADA DE HOY** 🚨\n\n📦 **Celular Samsung Galaxy S23 Ultra 5G Dual SIM 8gb + 256gb Color Verde**\n\n🔥 **¡43% DE DESCUENTO!**\n❌ Antes: ~$21,699.00~\n✅ **A solo: $12,318.00**\n\n⭐ Envío rápido y compra 100% protegida.\n\n👇 **Consigue el enlace de compra directo en el PRIMER COMENTARIO.** 👇\n\n#Ofertas #Gadgets #ComprasOnline #Descuentos #MercadoLibre",
+    "primerComentario": "🛒 **Compra directo aquí con descuento:**\n👉 https://meli.la/2jzLXY4\n\n⚠️ *Promoción por tiempo limitado o hasta agotar existencias.*"
+  },
+  {
+    "id": "telefono-celular-xiaomi-pocophone-poco-m8-5g-12-gb-ram-512-g",
+    "name": "Teléfono celular Xiaomi Pocophone Poco M8 5g 12 Gb Ram 512 Gb Rom 6.77 Dual Sim Negro",
+    "category": "Tecnología",
+    "price": 5999.0,
+    "originalPrice": 8999.0,
+    "discount": 33,
+    "description": "Xiaomi POCO POCO M8 5G · Memoria interna: 512 GB · Memoria RAM: 12 GB · Tamaño de la pantalla: 6.67 \" · Color: Negro",
+    "specs": [
+      "Modelo: POCO M8 5G",
+      "Memoria interna: 512 GB",
+      "Memoria RAM: 12 GB",
+      "Tamaño de la pantalla: 6.67 \"",
+      "Resolución de la pantalla: 2400 px x 1080 px",
+      "Color: Negro"
+    ],
+    "badge": "Nuevo",
+    "emoji": "🛒",
+    "color": "blue",
+    "image": "img/telefono-celular-xiaomi-pocophone-poco-m8-5g-12-gb-ram-512-g.jpg",
+    "url": "https://meli.la/1VZpayn",
+    "postTexto": "🚨 **OFERTA DESTACADA DE HOY** 🚨\n\n📦 **Teléfono celular Xiaomi Pocophone Poco M8 5g 12 Gb Ram 512 Gb Rom 6.77 Dual Sim Negro**\n\n🔥 **¡33% DE DESCUENTO!**\n❌ Antes: ~$8,999.00~\n✅ **A solo: $5,999.00**\n\n⭐ Envío rápido y compra 100% protegida.\n\n👇 **Consigue el enlace de compra directo en el PRIMER COMENTARIO.** 👇\n\n#Ofertas #Gadgets #ComprasOnline #Descuentos #MercadoLibre",
+    "primerComentario": "🛒 **Compra directo aquí con descuento:**\n👉 https://meli.la/1VZpayn\n\n⚠️ *Promoción por tiempo limitado o hasta agotar existencias.*"
+  },
+  {
+    "id": "htc-wildfire-e9-4g-telefono-celular-rendimiento-liquido-rama",
+    "name": "Htc Wildfire E9 4g Teléfono celular, rendimiento líquido, rama 6gb + 12 Gb Ram Virtual, 128gb, Android 16, Batería 7000mah, Pantalla 6.745 pulgadas 120hz, Cámara 50mp, Nfc, doble Sim",
+    "category": "Tecnología",
+    "price": 2970.42,
+    "originalPrice": 4714.95,
+    "discount": 36,
+    "description": "HTC E9 · Memoria interna: 128 GB · Memoria RAM: 6 GB · Tamaño de la pantalla: 6.75 \" · Color: Plata titanio",
+    "specs": [
+      "Modelo: E9",
+      "Memoria interna: 128 GB",
+      "Memoria RAM: 6 GB",
+      "Tamaño de la pantalla: 6.75 \"",
+      "Resolución de la pantalla: 720 px x 1600 px",
+      "Color: Plata titanio"
+    ],
+    "badge": "Nuevo",
+    "emoji": "🛒",
+    "color": "blue",
+    "image": "img/htc-wildfire-e9-4g-telefono-celular-rendimiento-liquido-rama.jpg",
+    "url": "https://meli.la/1WWFDFd",
+    "postTexto": "🚨 **OFERTA DESTACADA DE HOY** 🚨\n\n📦 **Htc Wildfire E9 4g Teléfono celular, rendimiento líquido, rama 6gb + 12 Gb Ram Virtual, 128gb, Android 16, Batería 7000mah, Pantalla 6.745 pulgadas 120hz, Cámara 50mp, Nfc, doble Sim**\n\n🔥 **¡36% DE DESCUENTO!**\n❌ Antes: ~$4,714.95~\n✅ **A solo: $2,970.42**\n\n⭐ Envío rápido y compra 100% protegida.\n\n👇 **Consigue el enlace de compra directo en el PRIMER COMENTARIO.** 👇\n\n#Ofertas #Gadgets #ComprasOnline #Descuentos #MercadoLibre",
+    "primerComentario": "🛒 **Compra directo aquí con descuento:**\n👉 https://meli.la/1WWFDFd\n\n⚠️ *Promoción por tiempo limitado o hasta agotar existencias.*"
+  },
+  {
+    "id": "smart-tv-acer-50-qled-4k-con-google-tv-dolby-audio-y-soporte",
+    "name": "Smart TV Acer 50\" QLED 4K con Google TV, Dolby Audio y Soporte de Pared Incluido",
+    "category": "TV y Audio",
+    "price": 4999.0,
+    "originalPrice": 7903.01,
+    "discount": 36,
+    "description": "Pantalla QLED de 50\" con resolución 4K para imágenes nítidas y vibrantes. Sistema operativo Google TV para acceso a múltiples apps. Google Assistant integrado para control por voz y navegación.",
+    "specs": [
+      "Modelo: 50PQ100QG",
+      "Tamaño de la pantalla: 50 \"",
+      "Sistema operativo: Google TV",
+      "Color: Black"
+    ],
+    "badge": "Nuevo",
+    "emoji": "📺",
+    "color": "blue",
+    "image": "img/smart-tv-acer-50-qled-4k-con-google-tv-dolby-audio-y-soporte.jpg",
+    "url": "https://meli.la/26JV9aW",
+    "postTexto": "🚨 **OFERTA DESTACADA DE HOY** 🚨\n\n📦 **Smart TV Acer 50\" QLED 4K con Google TV, Dolby Audio y Soporte de Pared Incluido**\n\n🔥 **¡36% DE DESCUENTO!**\n❌ Antes: ~$7,903.01~\n✅ **A solo: $4,999.00**\n\n⭐ Envío rápido y compra 100% protegida.\n\n👇 **Consigue el enlace de compra directo en el PRIMER COMENTARIO.** 👇\n\n#Ofertas #Gadgets #ComprasOnline #Descuentos #MercadoLibre",
+    "primerComentario": "🛒 **Compra directo aquí con descuento:**\n👉 https://meli.la/26JV9aW\n\n⚠️ *Promoción por tiempo limitado o hasta agotar existencias.*"
+  },
+  {
+    "id": "honor-x8d-dual-sim-8gb-ram-256gb-azul",
+    "name": "Honor X8d Dual Sim 8gb Ram 256gb Azul",
+    "category": "Tecnología",
+    "price": 4847.0,
+    "originalPrice": 8999.0,
+    "discount": 46,
+    "description": "Dispositivo desbloqueado para que elijas la compañía telefónica que prefieras. Memoria interna de 256GB.",
+    "specs": [
+      "Modelo: X8D",
+      "Memoria interna: 256 GB",
+      "Memoria RAM: 8 GB",
+      "Color: Azul"
+    ],
+    "badge": "Nuevo",
+    "emoji": "🛒",
+    "color": "blue",
+    "image": "img/honor-x8d-dual-sim-8gb-ram-256gb-azul.jpg",
+    "url": "https://meli.la/2rKFhFW",
+    "postTexto": "🚨 **OFERTA DESTACADA DE HOY** 🚨\n\n📦 **Honor X8d Dual Sim 8gb Ram 256gb Azul**\n\n🔥 **¡46% DE DESCUENTO!**\n❌ Antes: ~$8,999.00~\n✅ **A solo: $4,847.00**\n\n⭐ Envío rápido y compra 100% protegida.\n\n👇 **Consigue el enlace de compra directo en el PRIMER COMENTARIO.** 👇\n\n#Ofertas #Gadgets #ComprasOnline #Descuentos #MercadoLibre",
+    "primerComentario": "🛒 **Compra directo aquí con descuento:**\n👉 https://meli.la/2rKFhFW\n\n⚠️ *Promoción por tiempo limitado o hasta agotar existencias.*"
+  },
+  {
+    "id": "oppo-reno14-f-azul-5g-256-gb-12-gb-enco-buds3",
+    "name": "Oppo Reno14 F Azul 5g 256 Gb 12 Gb + Enco Buds3",
+    "category": "Tecnología",
+    "price": 7669.0,
+    "originalPrice": 9999.0,
+    "discount": 23,
+    "description": "Dispositivo desbloqueado para que elijas la compañía telefónica que prefieras. Compatible con redes 5G. Pantalla AMOLED de 6.57\".",
+    "specs": [
+      "Modelo: Reno14 F 5g",
+      "Memoria interna: 256 GB",
+      "Memoria RAM: 12 GB",
+      "Tamaño de la pantalla: 6.57 \"",
+      "Resolución de la pantalla: 2372 px x 1080 px",
+      "Color: Azul"
+    ],
+    "badge": "Nuevo",
+    "emoji": "🛒",
+    "color": "blue",
+    "image": "img/oppo-reno14-f-azul-5g-256-gb-12-gb-enco-buds3.jpg",
+    "url": "https://meli.la/2j4SMB4",
+    "postTexto": "🚨 **OFERTA DESTACADA DE HOY** 🚨\n\n📦 **Oppo Reno14 F Azul 5g 256 Gb 12 Gb + Enco Buds3**\n\n🔥 **¡23% DE DESCUENTO!**\n❌ Antes: ~$9,999.00~\n✅ **A solo: $7,669.00**\n\n⭐ Envío rápido y compra 100% protegida.\n\n👇 **Consigue el enlace de compra directo en el PRIMER COMENTARIO.** 👇\n\n#Ofertas #Gadgets #ComprasOnline #Descuentos #MercadoLibre",
+    "primerComentario": "🛒 **Compra directo aquí con descuento:**\n👉 https://meli.la/2j4SMB4\n\n⚠️ *Promoción por tiempo limitado o hasta agotar existencias.*"
+  },
+  {
+    "id": "hidrolavadora-electrica-portatil-1600-psi-1200w-alta-presion",
+    "name": "Hidrolavadora Electrica Portátil 1600 Psi 1200w Alta Presion Amarillo 60hz Trent Para Lavar Carros",
+    "category": "Herramientas",
+    "price": 842.49,
+    "originalPrice": 2299.0,
+    "discount": 63,
+    "description": "Potencia de 1.2 kW para una limpieza eficiente. Presión máxima de 110 bar para eliminar suciedad resistente. Caudal de agua de 6 L/min para un rendimiento óptimo.",
+    "specs": [
+      "Modelo: HLT203-1200-AC127V",
+      "Color: Amarillo"
+    ],
+    "badge": "Nuevo",
+    "emoji": "🔧",
+    "color": "orange",
+    "image": "img/hidrolavadora-electrica-portatil-1600-psi-1200w-alta-presion.jpg",
+    "url": "https://meli.la/1ReYXqE",
+    "postTexto": "🚨 **OFERTA DESTACADA DE HOY** 🚨\n\n📦 **Hidrolavadora Electrica Portátil 1600 Psi 1200w Alta Presion Amarillo 60hz Trent Para Lavar Carros**\n\n🔥 **¡63% DE DESCUENTO!**\n❌ Antes: ~$2,299.00~\n✅ **A solo: $842.49**\n\n⭐ Envío rápido y compra 100% protegida.\n\n👇 **Consigue el enlace de compra directo en el PRIMER COMENTARIO.** 👇\n\n#Ofertas #Gadgets #ComprasOnline #Descuentos #MercadoLibre",
+    "primerComentario": "🛒 **Compra directo aquí con descuento:**\n👉 https://meli.la/1ReYXqE\n\n⚠️ *Promoción por tiempo limitado o hasta agotar existencias.*"
+  },
+  {
+    "id": "auto-estereo-carsapro-pantalla-7-pulgadas-ips-tactil-inalamb",
+    "name": "Auto Estéreo Carsapro Pantalla 7 pulgadas IPS Táctil inalámbrico CarPlay Android Auto Autoestéreo Portátil Bluetooth Mirrorlink Estereo Para Carro Con Cámara EQ FM Bt Hd Aux SD Usb",
+    "category": "Automotriz",
+    "price": 739.35,
+    "originalPrice": 1297.1,
+    "discount": 42,
+    "description": "Dimensiones: 5cm de altura x 17.8cm de largo x 10cm de profundidad. Con puerto USB. Con función de TV.",
+    "specs": [
+      "Modelo: C5800",
+      "Tamaño de la pantalla: 7 \"",
+      "Color: Negro"
+    ],
+    "badge": "Nuevo",
+    "emoji": "🚗",
+    "color": "blue",
+    "image": "img/auto-estereo-carsapro-pantalla-7-pulgadas-ips-tactil-inalamb.jpg",
+    "url": "https://meli.la/1FJGVnq",
+    "postTexto": "🚨 **OFERTA DESTACADA DE HOY** 🚨\n\n📦 **Auto Estéreo Carsapro Pantalla 7 pulgadas IPS Táctil inalámbrico CarPlay Android Auto Autoestéreo Portátil Bluetooth Mirrorlink Estereo Para Carro Con Cámara EQ FM Bt Hd Aux SD Usb**\n\n🔥 **¡42% DE DESCUENTO!**\n❌ Antes: ~$1,297.10~\n✅ **A solo: $739.35**\n\n⭐ Envío rápido y compra 100% protegida.\n\n👇 **Consigue el enlace de compra directo en el PRIMER COMENTARIO.** 👇\n\n#Ofertas #Gadgets #ComprasOnline #Descuentos #MercadoLibre",
+    "primerComentario": "🛒 **Compra directo aquí con descuento:**\n👉 https://meli.la/1FJGVnq\n\n⚠️ *Promoción por tiempo limitado o hasta agotar existencias.*"
   }
 ];
 
@@ -383,6 +606,10 @@ function card(product) {
     ? `<ul class="card-specs">${product.specs.map((s) => `<li>${s}</li>`).join("")}</ul>`
     : "";
 
+  const desc = product.description
+    ? `<p class="card-desc">${product.description}</p>`
+    : "";
+
   const colors = product.colors?.length
     ? `<div class="card-colors"><span>Color:</span>${product.colors
         .map((c) => `<span class="swatch swatch-${c.toLowerCase()}" title="${c}"></span>`)
@@ -398,6 +625,7 @@ function card(product) {
           ${meta.join("")}
         </div>
         <h3 class="card-title">${product.name}</h3>
+        ${desc}
         ${rating}
         ${searchCode}
         ${colors}

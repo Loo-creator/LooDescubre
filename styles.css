@@ -216,6 +216,7 @@ a { color: inherit; text-decoration: none; }
 .card-sold { color: #6ee7a8; border-color: rgba(110, 231, 168, 0.25); }
 .card-flash { color: #ff9d5c; border-color: rgba(255, 157, 92, 0.3); background: rgba(255, 157, 92, 0.08); }
 .card-title { font-size: 0.98rem; font-weight: 600; line-height: 1.35; margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.card-desc { font-size: 0.82rem; line-height: 1.45; color: var(--muted); margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
 .card-rating { display: flex; flex-direction: column; gap: 2px; font-size: 0.78rem; color: var(--muted); }
 .card-stars { color: var(--brand); letter-spacing: 2px; }
 .card-rating.muted { font-style: italic; }
