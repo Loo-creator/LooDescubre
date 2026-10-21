@@ -530,6 +530,104 @@ const PRODUCTS = [
     "url": "https://meli.la/1FJGVnq",
     "postTexto": "🚨 **OFERTA DESTACADA DE HOY** 🚨\n\n📦 **Auto Estéreo Carsapro Pantalla 7 pulgadas IPS Táctil inalámbrico CarPlay Android Auto Autoestéreo Portátil Bluetooth Mirrorlink Estereo Para Carro Con Cámara EQ FM Bt Hd Aux SD Usb**\n\n🔥 **¡42% DE DESCUENTO!**\n❌ Antes: ~$1,297.10~\n✅ **A solo: $739.35**\n\n⭐ Envío rápido y compra 100% protegida.\n\n👇 **Consigue el enlace de compra directo en el PRIMER COMENTARIO.** 👇\n\n#Ofertas #Gadgets #ComprasOnline #Descuentos #MercadoLibre",
     "primerComentario": "🛒 **Compra directo aquí con descuento:**\n👉 https://meli.la/1FJGVnq\n\n⚠️ *Promoción por tiempo limitado o hasta agotar existencias.*"
+  },
+  {
+    "id": "letech-11-piezas-destornilladores-desarmadores-de-precision-",
+    "name": "Letech 11 Piezas Destornilladores Desarmadores De Precisión Magnét Torx Y Plano Herramientas Manuales Kit Desarmadores De Cruz Kit De Destornilladores Con Imanes De Grado Industrial Potentes",
+    "category": "Herramientas",
+    "price": 178.98,
+    "originalPrice": 297.96,
+    "discount": 39,
+    "description": "Puntas con imán integrado que sujetan firmemente los tornillos facilitando el trabajo en espacios de difícil acceso. Fabricación en acero al cromo-vanadio que resiste la corrosión y mantiene la integridad de la pieza en tareas exigentes. Kit compuesto por 11 unidades con medidas de 7.5 cm a 20 cm para cubrir diversos tipos de fijaciones en el hogar.",
+    "specs": [
+      "Modelo: Juego De Destornilladores"
+    ],
+    "badge": "Nuevo",
+    "emoji": "🔧",
+    "color": "orange",
+    "image": "img/letech-11-piezas-destornilladores-desarmadores-de-precision-.jpg",
+    "url": "https://meli.la/1Xz3BE1",
+    "postTexto": "🚨 **OFERTA DESTACADA DE HOY** 🚨\n\n📦 **Letech 11 Piezas Destornilladores Desarmadores De Precisión Magnét Torx Y Plano Herramientas Manuales Kit Desarmadores De Cruz Kit De Destornilladores Con Imanes De Grado Industrial Potentes**\n\n🔥 **¡39% DE DESCUENTO!**\n❌ Antes: ~$297.96~\n✅ **A solo: $178.98**\n\n⭐ Envío rápido y compra 100% protegida.\n\n👇 **Consigue el enlace de compra directo en el PRIMER COMENTARIO.** 👇\n\n#Ofertas #Gadgets #ComprasOnline #Descuentos #MercadoLibre",
+    "primerComentario": "🛒 **Compra directo aquí con descuento:**\n👉 https://meli.la/1Xz3BE1\n\n⚠️ *Promoción por tiempo limitado o hasta agotar existencias.*"
+  },
+  {
+    "id": "juego-herramientas-set-mecanicas-reparacion-domestica-106pcs",
+    "name": "Juego Herramientas Set Mecánicas Reparación Doméstica 106pcs",
+    "category": "Herramientas",
+    "price": 592.96,
+    "originalPrice": 926.5,
+    "discount": 36,
+    "description": "Cuenta con caja de transporte. Dimensiones: 9cm de alto 30cm de ancho 38cm de largo. Pesa 3.9kg.",
+    "specs": [
+      "Modelo: Juego Herramientas Set",
+      "Color: Naranja"
+    ],
+    "badge": "Nuevo",
+    "emoji": "🔧",
+    "color": "orange",
+    "image": "img/juego-herramientas-set-mecanicas-reparacion-domestica-106pcs.jpg",
+    "url": "https://meli.la/2qYSuoZ",
+    "postTexto": "🚨 **OFERTA DESTACADA DE HOY** 🚨\n\n📦 **Juego Herramientas Set Mecánicas Reparación Doméstica 106pcs**\n\n🔥 **¡36% DE DESCUENTO!**\n❌ Antes: ~$926.50~\n✅ **A solo: $592.96**\n\n⭐ Envío rápido y compra 100% protegida.\n\n👇 **Consigue el enlace de compra directo en el PRIMER COMENTARIO.** 👇\n\n#Ofertas #Gadgets #ComprasOnline #Descuentos #MercadoLibre",
+    "primerComentario": "🛒 **Compra directo aquí con descuento:**\n👉 https://meli.la/2qYSuoZ\n\n⚠️ *Promoción por tiempo limitado o hasta agotar existencias.*"
+  },
+  {
+    "id": "mini-pistola-de-calor-530-tubos-termorretractiles-300w-tempe",
+    "name": "Mini Pistola De Calor 530 Tubos Termorretráctiles 300w Temperatura Maxima 200°",
+    "category": "Herramientas",
+    "price": 149.0,
+    "originalPrice": 298.0,
+    "discount": 50,
+    "description": "La potencia de 300 W permite alcanzar una temperatura de 200 °C para la contracción efectiva de materiales aislantes. El kit incluye 530 tubos termorretráctiles de diversas medidas para cubrir diferentes diámetros de cables y conexiones. Cuenta con soporte metálico plegable integrado que mantiene la boquilla elevada al reposar la herramienta sobre la mesa.",
+    "specs": [
+      "Modelo: Pistola de aire caliente",
+      "Color: Rojo"
+    ],
+    "badge": "Nuevo",
+    "emoji": "🔧",
+    "color": "orange",
+    "image": "img/mini-pistola-de-calor-530-tubos-termorretractiles-300w-tempe.jpg",
+    "url": "https://meli.la/2Dktd35",
+    "postTexto": "🚨 **OFERTA DESTACADA DE HOY** 🚨\n\n📦 **Mini Pistola De Calor 530 Tubos Termorretráctiles 300w Temperatura Maxima 200°**\n\n🔥 **¡50% DE DESCUENTO!**\n❌ Antes: ~$298.00~\n✅ **A solo: $149.00**\n\n⭐ Envío rápido y compra 100% protegida.\n\n👇 **Consigue el enlace de compra directo en el PRIMER COMENTARIO.** 👇\n\n#Ofertas #Gadgets #ComprasOnline #Descuentos #MercadoLibre",
+    "primerComentario": "🛒 **Compra directo aquí con descuento:**\n👉 https://meli.la/2Dktd35\n\n⚠️ *Promoción por tiempo limitado o hasta agotar existencias.*"
+  },
+  {
+    "id": "motosierra-mini-electrica-inalambrica-portatil-6-inch-1200w-",
+    "name": "Motosierra Mini Eléctrica Inalambrica Portátil 6 Inch 1200w 30000rpm , Faghto Moto Sierra De Mano Electrica Con 9000mah Baterías Recargable Para Poda De Ramas, Césped, Bricolaje, Etc., Con Proteccione",
+    "category": "Herramientas",
+    "price": 289.65,
+    "originalPrice": 629.68,
+    "discount": 54,
+    "description": "Potencia de 1.2 kW para cortes eficientes en troncos de hasta 6 pulgadas. Velocidad máxima del motor de 30000 rpm para un rendimiento óptimo. Batería de litio de 21V y 9000mAh para 40-60 minutos de uso continuo.",
+    "specs": [
+      "Modelo: 1200W",
+      "Color: Azul"
+    ],
+    "badge": "Nuevo",
+    "emoji": "🔧",
+    "color": "orange",
+    "image": "img/motosierra-mini-electrica-inalambrica-portatil-6-inch-1200w-.jpg",
+    "url": "https://meli.la/1wso56f",
+    "postTexto": "🚨 **OFERTA DESTACADA DE HOY** 🚨\n\n📦 **Motosierra Mini Eléctrica Inalambrica Portátil 6 Inch 1200w 30000rpm , Faghto Moto Sierra De Mano Electrica Con 9000mah Baterías Recargable Para Poda De Ramas, Césped, Bricolaje, Etc., Con Proteccione**\n\n🔥 **¡54% DE DESCUENTO!**\n❌ Antes: ~$629.68~\n✅ **A solo: $289.65**\n\n⭐ Envío rápido y compra 100% protegida.\n\n👇 **Consigue el enlace de compra directo en el PRIMER COMENTARIO.** 👇\n\n#Ofertas #Gadgets #ComprasOnline #Descuentos #MercadoLibre",
+    "primerComentario": "🛒 **Compra directo aquí con descuento:**\n👉 https://meli.la/1wso56f\n\n⚠️ *Promoción por tiempo limitado o hasta agotar existencias.*"
+  },
+  {
+    "id": "mini-mototool-taladro-esmeril-pulidor-shawty-usb-18000rpm-co",
+    "name": "Mini Mototool Taladro Esmeril Pulidor Shawty, USB 18000RPM，Con 210 Accesorios, Herramienta Rotativa Multiusos Para Lijar, Pulir, Grabar y Otros Proyectos",
+    "category": "Herramientas",
+    "price": 287.22,
+    "originalPrice": 648.55,
+    "discount": 55,
+    "description": "Fuente de alimentación: cable de carga. Velocidad máxima de 18000rpm. Velocidad mínima de 8000rpm.",
+    "specs": [
+      "Modelo: S0062-210 Mototool"
+    ],
+    "badge": "Nuevo",
+    "emoji": "🔧",
+    "color": "orange",
+    "image": "img/mini-mototool-taladro-esmeril-pulidor-shawty-usb-18000rpm-co.jpg",
+    "url": "https://meli.la/1fRNqrw",
+    "postTexto": "🚨 **OFERTA DESTACADA DE HOY** 🚨\n\n📦 **Mini Mototool Taladro Esmeril Pulidor Shawty, USB 18000RPM，Con 210 Accesorios, Herramienta Rotativa Multiusos Para Lijar, Pulir, Grabar y Otros Proyectos**\n\n🔥 **¡55% DE DESCUENTO!**\n❌ Antes: ~$648.55~\n✅ **A solo: $287.22**\n\n⭐ Envío rápido y compra 100% protegida.\n\n👇 **Consigue el enlace de compra directo en el PRIMER COMENTARIO.** 👇\n\n#Ofertas #Gadgets #ComprasOnline #Descuentos #MercadoLibre",
+    "primerComentario": "🛒 **Compra directo aquí con descuento:**\n👉 https://meli.la/1fRNqrw\n\n⚠️ *Promoción por tiempo limitado o hasta agotar existencias.*"
   }
 ];
 
